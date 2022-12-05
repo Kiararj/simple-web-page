@@ -1,16 +1,101 @@
-*{
-    background-color: black;
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    scroll-behavior: smooth;
+* {
+  background-color: black;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
 }
-.top-left-bar img{
-height:200px;
-width: 200px;
-margin: auto;
+body,
+html {
+  font-family: "Bebas Neue", cursive;
 }
-.top-right-bar img{
-height: 16px;
-width: 16px;
+main {
+  background-color: white;
+}
+.container {
+    padding: 1em;
+  }
+.top-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 25px;
+}
+.top-left-bar {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.top-left-bar img {
+  height: 150px;
+  width: 150px;
+  margin: auto;
+}
+.top-right-bar {
+  display: flex;
+  gap: 1em;
+  color: aqua;
+}
+.top-right-bar img {
+  height: 16px;
+  width: 16px;
+}
+.links {
+  font-size: 24px;
+  color: aqua;
+}
+.title {
+    padding: auto;
+  text-align: center;
+  margin-bottom: 25px;
+}
+.title h1 {
+  font-size: 48px;
+  color: aqua;
+}
+.title p {
+  font-size: 30px;
+  color: white;
+}
+
+.games {
+  height: 250px;
+  width: 250px;
+  border-radius: 25px;
+}
+.game-content {
+  display: grid;
+  column-gap: 50px;
+  row-gap: 50px;
+  grid-template-columns: auto auto auto auto;
+  margin-left: 20px;
+}
+.content {
+  color: white;
+  padding: 20px;
+  font-size: 20px;
+  text-align: left;
+}
+.content h2 {
+  color: aqua;
+}
+.footer {
+  color: grey;
+  display: grid;
+  grid-template-columns: 300px 100px;
+}
+.footer p {
+  margin: auto;
+  padding: auto;
+}
+.footer button {
+  border: none;
+  background-color: aqua;
+  color: grey;
+  width: 50x;
+  height: 40px;
+  padding: 1em;
+  border-radius: 15px;
+  cursor: pointer;
+  font-family: "Bebas Neue", cursive;
 }
