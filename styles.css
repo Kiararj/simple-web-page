@@ -1,0 +1,16 @@
+*{
+    background-color: black;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+.top-left-bar img{
+height:200px;
+width: 200px;
+margin: auto;
+}
+.top-right-bar img{
+height: 16px;
+width: 16px;
+}
